@@ -1,0 +1,46 @@
+.carousel-item  {
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 80px;
+}
+
+#slide1 {
+  background-image: url(https://r-cf.bstatic.com/images/hotel/max1024x768/720/72038944.jpg);
+}
+#slide2 {
+  background-image: url(https://www.thebellevuebohol.com/wp-content/uploads/2018/09/1-1024x546.jpg);
+}
+#slide3 {
+  background-image: url(https://www.alonaresorts.com/wp-content/uploads/2016/01/south-palms-resort-panglao-bohol-philippines-004.jpg);
+}
+
+span{
+    border-style: solid;
+    border-width: thin;
+    margin: 0 0 0 10px;
+    padding: 3px;
+}
+
+#previous, #next {
+  margin-top: -85px;
+}
+
+.infoBtn:hover, .about:hover {
+  background-color: #e6e9ed;
+}
+
+.infoBtn, .about {
+  margin: 0 10px 10px 0;
+  padding: 5px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+footer {
+    text-align: center;
+}
